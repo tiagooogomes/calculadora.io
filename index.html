@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <title>Calculadora</title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+        <link rel="shortcut icon" href="img/icone.svg" type="image/x-icon" />
+    </head>
+    <body>
+        <header>
+            <h4>by. Aspirante Tiago Santos</h4>
+        </header>
+        <main>
+            <section>
+                <h1>VAMOS</h1>
+                <div></div>
+                <h2>Calcular</h2>
+            </section>
+            <div>
+                <h3 id="resultado"></h3>
+            </div>
+            <form id="formulario">
+                <h3>Coloque os Valores, <span>Escolha a Operação</span></h3>
+                <div id="text">
+                    <input type="text" name="campo1" />
+                    <label>COM</label>
+                    <input type="text" name="campo2" />
+                </div>
+                <div id="submit">
+                    <input type="submit" id="botaoSomar" value="SOMAR" />
+                    <input type="submit" id="botaoMultiplicar" value="MULTIPLICAR" />
+                    <input type="submit" id="botaoDividir" value="DIVIDIR" />
+                    <input type="submit" id="botaoSubtrair" value="SUBTRAIR" />
+                </div>
+
+            </form>
+        </main>
+        <script src="script.js"></script>
+    </body>
+</html>
